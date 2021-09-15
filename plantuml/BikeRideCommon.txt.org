@@ -1,0 +1,185 @@
+@startuml
+' STYLE START
+hide empty members
+skinparam shadowing false
+' STYLE END
+
+
+class "BikeRideError" as BikeRideError << (E, LightSteelBlue) enum >> { 
+  ~sessionNotSupported
+  ~fileNotCreated
+  ~errorDescription : String? 
+}
+class "ErrorAlert" as ErrorAlert << (S, SkyBlue) struct >> { 
+  ~id
+  ~message : String
+  ~dismissAction : (() -> Void)? 
+}
+class "ErrorHandling" as ErrorHandling << (C, DarkSeaGreen) >> { 
+  ~currentAlert : ErrorAlert?
+  ~handle(error:) 
+}
+class "ClassName" as ClassName << (P, GoldenRod) protocol >> {  
+}
+class "ClassName" as ClassName0 << (X, Orchid) extension >> { 
+  className() 
+}
+class "HandleErrorsByShowingAlertViewModifier" as HandleErrorsByShowingAlertViewModifier << (S, SkyBlue) struct >> { 
+  ~errorHandling
+  ~body(content:) 
+}
+class "View" as View << (X, Orchid) extension >> { 
+  withErrorHandling() 
+}
+class "String" as String << (X, Orchid) extension >> { 
+  +errorDescription : String? 
+}
+class "GPXHelper" as GPXHelper << (C, DarkSeaGreen) >> { 
+  ~gpx : GPX
+  -errorDescription : String
+  -isError : Bool
+  -xpath : String
+  -gpxCoordinate : GPXCoordinate
+  -gpxWaypoint : GPXWaypoint
+  -gpxTrack : GPXTrack
+  -gpxTrackSegment : GPXTrackSegment
+  -gpxRoute : GPXRoute
+  -gpxRoutePoint : GPXRoutePoint
+  ~parseXML(gpxURL:)
+  -calcCoordinateBox()
+  ~writeGeoJSON() 
+}
+class "GPXHelper" as GPXHelper1 << (X, Orchid) extension >> { 
+  parserDidEndDocument(_:)
+  parser(_:didStartElement:namespaceURI:qualifiedName:attributes:)
+  parser(_:didEndElement:namespaceURI:qualifiedName:)
+  parser(_:foundCharacters:)
+  parser(_:parseErrorOccurred:) 
+}
+class "Logger" as Logger << (X, Orchid) extension >> { 
+  -{static} subsystem
+  {static} app
+  {static} model
+  {static} controller
+  {static} view 
+}
+class "LazyView" as LazyView<Content: View> << (S, SkyBlue) struct >> { 
+  -build : () -> Content
+  +init(_:)
+  +body : Content 
+}
+class "ConnectivityProviderState" as ConnectivityProviderState << (E, LightSteelBlue) enum >> { 
+  ~active 
+}
+class "ConnectivityProviderDelegate" as ConnectivityProviderDelegate << (P, GoldenRod) protocol >> { 
+  ~counterpartAppReachableDidChange(_:)
+  ~gpxWasReceived(_:)
+  ~stateDidChange(_:) 
+}
+class "ConnectivityProvider" as ConnectivityProvider << (C, DarkSeaGreen) >> { 
+  -chunkSize
+  -keyType : String
+  -valueGPX : String
+  -keyId : String
+  -keyChunkNbr : String
+  -keyChunkTotalNbr : String
+  -keyData : String
+  -messageUUID : String
+  -messageType : String
+  -messageChunkNbr : Int
+  -messageChunkTotalNbr : Int
+  -messageData : Data
+  -session : WCSession
+  ~state : ConnectivityProviderState
+  ~counterPartAppReachable : Bool
+  ~delegate : ConnectivityProviderDelegate?
+  ~init(session:)
+  -printSessionStatus()
+  -WCSessionStateToConnectivityProvideState(state:)
+  ~connect()
+  ~sendInChunks(message:) 
+}
+class "WCSessionActivationState" as WCSessionActivationState << (X, Orchid) extension >> { 
+  +description : String 
+}
+class "ConnectivityProvider" as ConnectivityProvider2 << (X, Orchid) extension >> { 
+  session(_:activationDidCompleteWith:error:)
+  sessionReachabilityDidChange(_:)
+  session(_:didReceiveMessage:replyHandler:)
+  sessionDidBecomeInactive(_:)
+  sessionDidDeactivate(_:)
+  sessionWatchStateDidChange(_:) 
+}
+class "GPXCoordinateBox" as GPXCoordinateBox << (S, SkyBlue) struct >> { 
+  ~topleft : GPXCoordinate
+  ~bottomright : GPXCoordinate
+  ~center : GPXCoordinate
+  ~latitudeDelta : Double
+  ~longitudeDelta : Double 
+}
+class "GPXCoordinate" as GPXCoordinate << (S, SkyBlue) struct >> { 
+  ~lat : Double
+  ~lon : Double 
+}
+class "GPXWaypoint" as GPXWaypoint << (S, SkyBlue) struct >> { 
+  ~name : String
+  ~gpxCoordinate : GPXCoordinate 
+}
+class "GPXTrackSegment" as GPXTrackSegment << (S, SkyBlue) struct >> { 
+  ~gpxCoordinates : [GPXCoordinate] 
+}
+class "GPXTrack" as GPXTrack << (S, SkyBlue) struct >> { 
+  ~name : String
+  ~gpxTrackSegments : [GPXTrackSegment] 
+}
+class "GPXRoutePoint" as GPXRoutePoint << (S, SkyBlue) struct >> { 
+  ~name : String
+  ~comment : String
+  ~gpxCoordinate : GPXCoordinate 
+}
+class "GPXRoute" as GPXRoute << (S, SkyBlue) struct >> { 
+  ~name : String
+  ~gpxRoutePoints : [GPXRoutePoint] 
+}
+class "GPX" as GPX << (S, SkyBlue) struct >> { 
+  ~filename : String
+  ~version : String
+  ~name : String
+  ~gpxWaypoints : [GPXWaypoint]
+  ~gpxTracks : [GPXTrack]
+  ~gpxRoutes : [GPXRoute]
+  ~coordinateBox : GPXCoordinateBox 
+}
+class "DataChunk" as DataChunk << (S, SkyBlue) struct >> { 
+  ~chunksIntoData(chunks:)
+  ~dataIntoChunks(data:chunkSize:)
+  -dataWithLength(length:)
+  ~test() 
+}
+BikeRideError -- LocalizedError : inherits
+ErrorAlert --|> Identifiable : inherits
+ErrorHandling --|> ObservableObject : inherits
+HandleErrorsByShowingAlertViewModifier --|> ViewModifier : inherits
+String <.. LocalizedError : inherits
+GPXHelper --|> NSObject : inherits
+GPXHelper ..|> ClassName : confirms to
+GPXHelper --|> XMLParserDelegate : inherits
+LazyView --|> View : ext
+ConnectivityProviderDelegate ..|> AnyObject : inherits
+ConnectivityProvider --|> NSObject : inherits
+ConnectivityProvider ..|> ClassName : confirms to
+WCSessionActivationState <.. CustomStringConvertible : inherits
+ConnectivityProvider --|> WCSessionDelegate : inherits
+GPXCoordinateBox --|> Codable : inherits
+GPXCoordinate --|> Codable : inherits
+GPXWaypoint --|> Codable : inherits
+GPXTrackSegment --|> Codable : inherits
+GPXTrack --|> Codable : inherits
+GPXRoutePoint --|> Codable : inherits
+GPXRoute --|> Codable : inherits
+GPX --|> Codable : inherits
+DataChunk ..|> ClassName : confirms to
+ClassName <.. ClassName0 : ext
+GPXHelper <.. GPXHelper1 : ext
+ConnectivityProvider <.. ConnectivityProvider2 : ext
+@enduml

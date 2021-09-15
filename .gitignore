@@ -1,9 +1,18 @@
+# Macos
+.DS_Store
+
+# Jazzy docfiles
+bikeride_docs/
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## User settings
 xcuserdata/
+
+## Performance baselines
+xcbaselines/
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
