@@ -69,7 +69,7 @@ jobs:
           git checkout gh-pages
           git rm -rf .
           cd ..
-          cp -a bikeride_docs/. out/.
+          cp -a ./BikeRide/bikeride_docs/. out/.
           cd out
           git add -A
           git commit -m "Automated deployment to GitHub Pages: ${GITHUB_SHA}" --allow-empty
