@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ModelData Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ModelData" class="dashAnchor"></a>
+    <a title="ModelData Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (29% documented)</p>
+        <p class="header-right"><a href="https://github.com/perrox75/BikeRide"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ModelData Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CloudFile.html">CloudFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CloudFileProvider.html">CloudFileProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConnectivityProvider.html">ConnectivityProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ErrorHandling.html">ErrorHandling</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GPXHelper.html">GPXHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ModelData.html">ModelData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationCenter.html">NotificationCenter</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BikeRideError.html">BikeRideError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConnectivityProviderState.html">ConnectivityProviderState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/View.html">View</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/WCSessionActivationState.html">WCSessionActivationState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ClassName.html">ClassName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CloudFileProviderDelegate.html">CloudFileProviderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConnectivityProviderDelegate.html">ConnectivityProviderDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/BikeRideApp.html">BikeRideApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileDetailView.html">CloudFileDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileDetailView2_Previews.html">CloudFileDetailView2_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileListView.html">CloudFileListView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileList_Previews.html">CloudFileList_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileRowView.html">CloudFileRowView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileRow_Previews.html">CloudFileRow_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectivityView.html">ConnectivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectivityView_Previews.html">ConnectivityView_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ContentView.html">ContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ContentView/Tab.html">– Tab</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ContentView_Previews.html">ContentView_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DataChunk.html">DataChunk</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ErrorAlert.html">ErrorAlert</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FavoriteButton_Previews.html">FavoriteButton_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPX.html">GPX</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXCoordinate.html">GPXCoordinate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXCoordinateBox.html">GPXCoordinateBox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXRoute.html">GPXRoute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXRoutePoint.html">GPXRoutePoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXTrack.html">GPXTrack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXTrackSegment.html">GPXTrackSegment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXWaypoint.html">GPXWaypoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GenerateRoutingImage.html">GenerateRoutingImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HandleErrorsByShowingAlertViewModifier.html">HandleErrorsByShowingAlertViewModifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageListView.html">ImageListView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageListView_Previews.html">ImageListView_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LazyView.html">LazyView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocalButton.html">LocalButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MapView.html">MapView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MapView/Coordinator.html">– Coordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PointInfo.html">PointInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PolylineInfo.html">PolylineInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Route.html">Route</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SnapshotImage.html">SnapshotImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SnapshotView.html">SnapshotView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ModelData</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kt">ModelData</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/ClassName.html">ClassName</a></span><span class="p">,</span> <span class="kt">ObservableObject</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ModelData</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ConnectivityProviderDelegate.html">ConnectivityProviderDelegate</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC20connectivityProviderAA012ConnectivityF0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/connectivityProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC20connectivityProviderAA012ConnectivityF0Cvp">connectivityProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">connectivityProvider</span><span class="p">:</span> <span class="kt"><a href="../Classes/ConnectivityProvider.html">ConnectivityProvider</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC17cloudFileProviderAA05CloudfG0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/cloudFileProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC17cloudFileProviderAA05CloudfG0Cvp">cloudFileProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">cloudFileProvider</span><span class="p">:</span> <span class="kt"><a href="../Classes/CloudFileProvider.html">CloudFileProvider</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC14textFieldValueSSvp"></a>
+                    <a name="//apple_ref/swift/Property/textFieldValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC14textFieldValueSSvp">textFieldValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">textFieldValue</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC19textMessageReceivedSSvp"></a>
+                    <a name="//apple_ref/swift/Property/textMessageReceived" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC19textMessageReceivedSSvp">textMessageReceived</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">textMessageReceived</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC10cloudFilesSayAA9CloudFileCGvp"></a>
+                    <a name="//apple_ref/swift/Property/cloudFiles" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC10cloudFilesSayAA9CloudFileCGvp">cloudFiles</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">cloudFiles</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/CloudFile.html">CloudFile</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC14isCloudLoadingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isCloudLoading" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC14isCloudLoadingSbvp">isCloudLoading</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">isCloudLoading</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC13isCloudLoadedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isCloudLoaded" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC13isCloudLoadedSbvp">isCloudLoaded</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">isCloudLoaded</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC16isWatchReachableSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isWatchReachable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC16isWatchReachableSbvp">isWatchReachable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">isWatchReachable</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC11lastMessageSdvp"></a>
+                    <a name="//apple_ref/swift/Property/lastMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC11lastMessageSdvp">lastMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">lastMessage</span><span class="p">:</span> <span class="kt">CFAbsoluteTime</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC14loadCloudFilesyyF"></a>
+                    <a name="//apple_ref/swift/Method/loadCloudFiles()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC14loadCloudFilesyyF">loadCloudFiles()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">loadCloudFiles</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC7sendGpx3gpxyAA3GPXVSg_tF"></a>
+                    <a name="//apple_ref/swift/Method/sendGpx(gpx:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC7sendGpx3gpxyAA3GPXVSg_tF">sendGpx(gpx:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendGpx</span><span class="p">(</span><span class="nv">gpx</span><span class="p">:</span> <span class="kt"><a href="../Structs/GPX.html">GPX</a></span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC32counterpartAppReachableDidChangeyySbF"></a>
+                    <a name="//apple_ref/swift/Method/counterpartAppReachableDidChange(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC32counterpartAppReachableDidChangeyySbF">counterpartAppReachableDidChange(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">counterpartAppReachableDidChange</span><span class="p">(</span><span class="n">_</span> <span class="nv">reachable</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC14stateDidChangeyyAA25ConnectivityProviderStateOF"></a>
+                    <a name="//apple_ref/swift/Method/stateDidChange(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC14stateDidChangeyyAA25ConnectivityProviderStateOF">stateDidChange(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">stateDidChange</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt"><a href="../Enums/ConnectivityProviderState.html">ConnectivityProviderState</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide9ModelDataC14gpxWasReceivedyyAA3GPXVF"></a>
+                    <a name="//apple_ref/swift/Method/gpxWasReceived(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide9ModelDataC14gpxWasReceivedyyAA3GPXVF">gpxWasReceived(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">gpxWasReceived</span><span class="p">(</span><span class="n">_</span> <span class="nv">gpx</span><span class="p">:</span> <span class="kt"><a href="../Structs/GPX.html">GPX</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>©<a class="link" href="https://github.com/perrox75/BikeRide" target="_blank" rel="noopener" rel="external">BikeRide</a> under <a class="link" href="https://github.com/perrox75/BikeRide/blob/main/LICENSE" target="_blank" rel="noopener" rel="external">open source license</a></p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

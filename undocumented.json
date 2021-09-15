@@ -1,0 +1,1209 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/BikeRideApp.swift",
+      "line": 15,
+      "symbol": "BikeRideApp",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/BikeRideApp.swift",
+      "line": 28,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/BikeRideApp.swift",
+      "line": 30,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/BikeRideApp.swift",
+      "line": 38,
+      "symbol": "AppDelegate.application(_:didRegisterForRemoteNotificationsWithDeviceToken:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/BikeRideApp.swift",
+      "line": 47,
+      "symbol": "AppDelegate.application(_:didFailToRegisterForRemoteNotificationsWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 14,
+      "symbol": "Data.prettyPrintedJSONString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 23,
+      "symbol": "CloudFile",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 25,
+      "symbol": "CloudFile.isLocal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 28,
+      "symbol": "CloudFile.cloudURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 29,
+      "symbol": "CloudFile.filename",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 30,
+      "symbol": "CloudFile.isGpxExtension",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 32,
+      "symbol": "CloudFile.snapshotImages",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 34,
+      "symbol": "CloudFile.gpx",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 35,
+      "symbol": "CloudFile.geoJSONData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 36,
+      "symbol": "CloudFile.isGeoJSONDataLoaded",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 38,
+      "symbol": "CloudFile.init(cloudURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 64,
+      "symbol": "CloudFile.downloadFile()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 83,
+      "symbol": "CloudFile.loadGPX()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 102,
+      "symbol": "CloudFile.generateSnapshot()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 175,
+      "symbol": "CloudFile",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/CloudFile.swift",
+      "line": 177,
+      "symbol": "CloudFile.cloudFileWasDownloaded(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 12,
+      "symbol": "ModelData",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 14,
+      "symbol": "ModelData.counterpartAppReachableDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 20,
+      "symbol": "ModelData.stateDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 24,
+      "symbol": "ModelData.gpxWasReceived(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 30,
+      "symbol": "ModelData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 31,
+      "symbol": "ModelData.connectivityProvider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 32,
+      "symbol": "ModelData.cloudFileProvider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 34,
+      "symbol": "ModelData.textFieldValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 35,
+      "symbol": "ModelData.textMessageReceived",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 36,
+      "symbol": "ModelData.cloudFiles",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 37,
+      "symbol": "ModelData.isCloudLoading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 38,
+      "symbol": "ModelData.isCloudLoaded",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 40,
+      "symbol": "ModelData.isWatchReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 42,
+      "symbol": "ModelData.lastMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 44,
+      "symbol": "ModelData.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 49,
+      "symbol": "ModelData.loadCloudFiles()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/ModelData.swift",
+      "line": 61,
+      "symbol": "ModelData.sendGpx(gpx:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Provider/CloudFileProvider.swift",
+      "line": 13,
+      "symbol": "CloudFileProviderDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Provider/CloudFileProvider.swift",
+      "line": 14,
+      "symbol": "CloudFileProviderDelegate.cloudFileWasDownloaded(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Provider/CloudFileProvider.swift",
+      "line": 17,
+      "symbol": "CloudFileProvider",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Provider/CloudFileProvider.swift",
+      "line": 22,
+      "symbol": "CloudFileProvider.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Provider/CloudFileProvider.swift",
+      "line": 51,
+      "symbol": "CloudFileProvider.listCloudFiles()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Provider/CloudFileProvider.swift",
+      "line": 82,
+      "symbol": "CloudFileProvider.downloadFile(url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 10,
+      "symbol": "Location",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 11,
+      "symbol": "Location.latitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 12,
+      "symbol": "Location.longitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 13,
+      "symbol": "Location.isWaypoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 14,
+      "symbol": "Location.isVisited",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 15,
+      "symbol": "Location.distanceToNextLocation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 16,
+      "symbol": "Location.directionToNextLocation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 19,
+      "symbol": "Route",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 20,
+      "symbol": "Route.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 21,
+      "symbol": "Route.distance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 22,
+      "symbol": "Route.locations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 23,
+      "symbol": "Route.locationResolution",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/Route.swift",
+      "line": 24,
+      "symbol": "Route.visited",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/SnapshotImage.swift",
+      "line": 11,
+      "symbol": "SnapshotImage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Model/SnapshotImage.swift",
+      "line": 13,
+      "symbol": "SnapshotImage.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Notification/Notification.swift",
+      "line": 11,
+      "symbol": "NotificationCenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Notification/Notification.swift",
+      "line": 12,
+      "symbol": "NotificationCenter.dumbData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Notification/Notification.swift",
+      "line": 13,
+      "symbol": "NotificationCenter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Notification/Notification.swift",
+      "line": 19,
+      "symbol": "NotificationCenter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Notification/Notification.swift",
+      "line": 21,
+      "symbol": "NotificationCenter.userNotificationCenter(_:willPresent:withCompletionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Notification/Notification.swift",
+      "line": 25,
+      "symbol": "NotificationCenter.userNotificationCenter(_:didReceive:withCompletionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/Notification/Notification.swift",
+      "line": 29,
+      "symbol": "NotificationCenter.userNotificationCenter(_:openSettingsFor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileDetailView.swift",
+      "line": 12,
+      "symbol": "View.snapshot()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileDetailView.swift",
+      "line": 30,
+      "symbol": "CloudFileDetailView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileDetailView.swift",
+      "line": 31,
+      "symbol": "CloudFileDetailView.modelData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileDetailView.swift",
+      "line": 35,
+      "symbol": "CloudFileDetailView.cloudFile",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileDetailView.swift",
+      "line": 36,
+      "symbol": "CloudFileDetailView.cloudFileIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileDetailView.swift",
+      "line": 40,
+      "symbol": "CloudFileDetailView.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileDetailView.swift",
+      "line": 63,
+      "symbol": "CloudFileDetailView2_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileListView.swift",
+      "line": 10,
+      "symbol": "CloudFileListView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileListView.swift",
+      "line": 11,
+      "symbol": "CloudFileListView.modelData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileListView.swift",
+      "line": 14,
+      "symbol": "CloudFileListView.filteredCloudFiles",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileListView.swift",
+      "line": 56,
+      "symbol": "CloudFileList_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileRowView.swift",
+      "line": 10,
+      "symbol": "CloudFileRowView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileRowView.swift",
+      "line": 11,
+      "symbol": "CloudFileRowView.modelData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileRowView.swift",
+      "line": 12,
+      "symbol": "CloudFileRowView.cloudFile",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileRowView.swift",
+      "line": 25,
+      "symbol": "CloudFileRowView.init(cloudFile:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileRowView.swift",
+      "line": 31,
+      "symbol": "CloudFileRow_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileRowView.swift",
+      "line": 32,
+      "symbol": "CloudFileRow_Previews.cloudFile01",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/CloudFileRowView.swift",
+      "line": 33,
+      "symbol": "CloudFileRow_Previews.cloudFile02",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 12,
+      "symbol": "PolylineInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 13,
+      "symbol": "PolylineInfo.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 16,
+      "symbol": "PointInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 17,
+      "symbol": "PointInfo.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 20,
+      "symbol": "MapView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 24,
+      "symbol": "MapView.mapView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 25,
+      "symbol": "MapView.cloudFile",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 98,
+      "symbol": "MapView.Coordinator.parent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 100,
+      "symbol": "MapView.Coordinator.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 104,
+      "symbol": "MapView.Coordinator.mapView(_:rendererFor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/CloudFiles/MapView.swift",
+      "line": 115,
+      "symbol": "MapView.Coordinator.mapView(_:viewFor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Connectivity/ConnectivityView.swift",
+      "line": 10,
+      "symbol": "ConnectivityView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Connectivity/ConnectivityView.swift",
+      "line": 11,
+      "symbol": "ConnectivityView.modelData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Connectivity/ConnectivityView.swift",
+      "line": 25,
+      "symbol": "ConnectivityView_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/ContentView.swift",
+      "line": 12,
+      "symbol": "ContentView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/ContentView.swift",
+      "line": 15,
+      "symbol": "ContentView.Tab",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/ContentView.swift",
+      "line": 16,
+      "symbol": "ContentView.Tab.cloudFiles",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/ContentView.swift",
+      "line": 17,
+      "symbol": "ContentView.Tab.connectivity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/ContentView.swift",
+      "line": 18,
+      "symbol": "ContentView.Tab.snapshot",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/ContentView.swift",
+      "line": 69,
+      "symbol": "ContentView_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Helpers/LocalButton.swift",
+      "line": 10,
+      "symbol": "LocalButton",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Helpers/LocalButton.swift",
+      "line": 11,
+      "symbol": "LocalButton.isLocal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Helpers/LocalButton.swift",
+      "line": 22,
+      "symbol": "FavoriteButton_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/ImageListView/ImageListView.swift",
+      "line": 10,
+      "symbol": "ImageListView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/ImageListView/ImageListView.swift",
+      "line": 11,
+      "symbol": "ImageListView.modelData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/ImageListView/ImageListView.swift",
+      "line": 19,
+      "symbol": "ImageListView_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Snapshot/SnapshotView.swift",
+      "line": 12,
+      "symbol": "SnapshotView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Snapshot/SnapshotView.swift",
+      "line": 13,
+      "symbol": "SnapshotView.location",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Snapshot/SnapshotView.swift",
+      "line": 14,
+      "symbol": "SnapshotView.span",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/View/Snapshot/SnapshotView.swift",
+      "line": 42,
+      "symbol": "SnapshotView.generateSnapshot(width:height:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/ViewController/ViewController.swift",
+      "line": 13,
+      "symbol": "GenerateRoutingImage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/BikeRide/ViewController/ViewController.swift",
+      "line": 15,
+      "symbol": "GenerateRoutingImage.generate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 11,
+      "symbol": "ConnectivityProviderState",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 12,
+      "symbol": "ConnectivityProviderState.active",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 12,
+      "symbol": "ConnectivityProviderState.notActive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 16,
+      "symbol": "ConnectivityProviderDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 17,
+      "symbol": "ConnectivityProviderDelegate.counterpartAppReachableDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 18,
+      "symbol": "ConnectivityProviderDelegate.gpxWasReceived(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 19,
+      "symbol": "ConnectivityProviderDelegate.stateDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 22,
+      "symbol": "ConnectivityProvider",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 46,
+      "symbol": "ConnectivityProvider.state",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 47,
+      "symbol": "ConnectivityProvider.counterPartAppReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 50,
+      "symbol": "ConnectivityProvider.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 53,
+      "symbol": "ConnectivityProvider.init(session:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 91,
+      "symbol": "ConnectivityProvider.connect()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 105,
+      "symbol": "ConnectivityProvider.sendInChunks(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 145,
+      "symbol": "ConnectivityProvider",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 147,
+      "symbol": "ConnectivityProvider.session(_:activationDidCompleteWith:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 178,
+      "symbol": "ConnectivityProvider.sessionReachabilityDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 190,
+      "symbol": "ConnectivityProvider.session(_:didReceiveMessage:replyHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 297,
+      "symbol": "ConnectivityProvider.sessionDidBecomeInactive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 303,
+      "symbol": "ConnectivityProvider.sessionDidDeactivate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/ConnectivityProvider.swift",
+      "line": 309,
+      "symbol": "ConnectivityProvider.sessionWatchStateDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/DataChunk.swift",
+      "line": 10,
+      "symbol": "DataChunk",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/DataChunk.swift",
+      "line": 13,
+      "symbol": "DataChunk.chunksIntoData(chunks:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/DataChunk.swift",
+      "line": 22,
+      "symbol": "DataChunk.dataIntoChunks(data:chunkSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/DataChunk.swift",
+      "line": 47,
+      "symbol": "DataChunk.test()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 10,
+      "symbol": "BikeRideError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 11,
+      "symbol": "BikeRideError.sessionNotSupported",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 12,
+      "symbol": "BikeRideError.fileNotCreated",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 24,
+      "symbol": "ErrorAlert",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 26,
+      "symbol": "ErrorAlert.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 27,
+      "symbol": "ErrorAlert.dismissAction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 30,
+      "symbol": "ErrorHandling",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 31,
+      "symbol": "ErrorHandling.currentAlert",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 33,
+      "symbol": "ErrorHandling.handle(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 38,
+      "symbol": "ClassName",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 39,
+      "symbol": "ClassName",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 40,
+      "symbol": "ClassName.className()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 45,
+      "symbol": "HandleErrorsByShowingAlertViewModifier",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 46,
+      "symbol": "HandleErrorsByShowingAlertViewModifier.errorHandling",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Error.swift",
+      "line": 70,
+      "symbol": "View.withErrorHandling()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 15,
+      "symbol": "GPXHelper",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 16,
+      "symbol": "GPXHelper.gpx",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 29,
+      "symbol": "GPXHelper.parseXML(gpxURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 89,
+      "symbol": "GPXHelper.writeGeoJSON()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 164,
+      "symbol": "GPXHelper",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 166,
+      "symbol": "GPXHelper.parserDidEndDocument(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 176,
+      "symbol": "GPXHelper.parser(_:didStartElement:namespaceURI:qualifiedName:attributes:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 284,
+      "symbol": "GPXHelper.parser(_:didEndElement:namespaceURI:qualifiedName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 331,
+      "symbol": "GPXHelper.parser(_:foundCharacters:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/GPXHelper.swift",
+      "line": 367,
+      "symbol": "GPXHelper.parser(_:parseErrorOccurred:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/LazyView.swift",
+      "line": 33,
+      "symbol": "LazyView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/LazyView.swift",
+      "line": 35,
+      "symbol": "LazyView.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Logger.swift",
+      "line": 14,
+      "symbol": "Logger.app",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Logger.swift",
+      "line": 15,
+      "symbol": "Logger.model",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Logger.swift",
+      "line": 16,
+      "symbol": "Logger.controller",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BikeRide/BikeRide/BikeRide/BikeRide/Common/Logger.swift",
+      "line": 17,
+      "symbol": "Logger.view",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/BikeRide/BikeRide/BikeRide"
+}

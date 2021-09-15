@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CloudFileProviderDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/CloudFileProviderDelegate" class="dashAnchor"></a>
+    <a title="CloudFileProviderDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (29% documented)</p>
+        <p class="header-right"><a href="https://github.com/perrox75/BikeRide"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CloudFileProviderDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CloudFile.html">CloudFile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CloudFileProvider.html">CloudFileProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConnectivityProvider.html">ConnectivityProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ErrorHandling.html">ErrorHandling</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GPXHelper.html">GPXHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ModelData.html">ModelData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationCenter.html">NotificationCenter</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BikeRideError.html">BikeRideError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConnectivityProviderState.html">ConnectivityProviderState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/View.html">View</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/WCSessionActivationState.html">WCSessionActivationState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ClassName.html">ClassName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CloudFileProviderDelegate.html">CloudFileProviderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConnectivityProviderDelegate.html">ConnectivityProviderDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/BikeRideApp.html">BikeRideApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileDetailView.html">CloudFileDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileDetailView2_Previews.html">CloudFileDetailView2_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileListView.html">CloudFileListView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileList_Previews.html">CloudFileList_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileRowView.html">CloudFileRowView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CloudFileRow_Previews.html">CloudFileRow_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectivityView.html">ConnectivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConnectivityView_Previews.html">ConnectivityView_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ContentView.html">ContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ContentView/Tab.html">– Tab</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ContentView_Previews.html">ContentView_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DataChunk.html">DataChunk</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ErrorAlert.html">ErrorAlert</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FavoriteButton_Previews.html">FavoriteButton_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPX.html">GPX</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXCoordinate.html">GPXCoordinate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXCoordinateBox.html">GPXCoordinateBox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXRoute.html">GPXRoute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXRoutePoint.html">GPXRoutePoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXTrack.html">GPXTrack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXTrackSegment.html">GPXTrackSegment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GPXWaypoint.html">GPXWaypoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GenerateRoutingImage.html">GenerateRoutingImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HandleErrorsByShowingAlertViewModifier.html">HandleErrorsByShowingAlertViewModifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageListView.html">ImageListView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageListView_Previews.html">ImageListView_Previews</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LazyView.html">LazyView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocalButton.html">LocalButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MapView.html">MapView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MapView/Coordinator.html">– Coordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PointInfo.html">PointInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PolylineInfo.html">PolylineInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Route.html">Route</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SnapshotImage.html">SnapshotImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SnapshotView.html">SnapshotView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CloudFileProviderDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CloudFileProviderDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BikeRide25CloudFileProviderDelegateP05cloudD13WasDownloadedyy10Foundation3URLVF"></a>
+                    <a name="//apple_ref/swift/Method/cloudFileWasDownloaded(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BikeRide25CloudFileProviderDelegateP05cloudD13WasDownloadedyy10Foundation3URLVF">cloudFileWasDownloaded(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">cloudFileWasDownloaded</span><span class="p">(</span><span class="n">_</span> <span class="nv">urlFile</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>©<a class="link" href="https://github.com/perrox75/BikeRide" target="_blank" rel="noopener" rel="external">BikeRide</a> under <a class="link" href="https://github.com/perrox75/BikeRide/blob/main/LICENSE" target="_blank" rel="noopener" rel="external">open source license</a></p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
