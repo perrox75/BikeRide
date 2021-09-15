@@ -57,12 +57,12 @@ jobs:
       #  run: jazzy --clean --config .jazzy.yaml
       #  working-directory: ./BikeRide
       - name: Publish jazzy docs
-        working-directory: ./BikeRide
         uses: steven0351/publish-jazzy-docs@v1
         with:
           personal_access_token: ${{ secrets.DOCREPO_ACCESS }}
           config: .jazzy.yaml
           args: clean
+          working-directory: ./BikeRide
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
