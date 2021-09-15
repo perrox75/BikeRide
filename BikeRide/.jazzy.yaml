@@ -1,0 +1,14 @@
+author: perrox75
+author_url: https://app.codecov.io/gh/perrox75/BikeRide
+github_url: https://github.com/perrox75/BikeRide
+#exclude:
+copyright: '©[BikeRide](https://github.com/perrox75/BikeRide) under [open source license](https://github.com/perrox75/BikeRide/blob/main/LICENSE)'
+output: bikeride_docs
+min_acl: internal
+swift_build_tool: xcodebuild
+build_tool_arguments:
+  - '-scheme'
+  - 'BikeRide'
+  - '-workspace'
+  - 'BikeRide.xcworkspace'
+  - '-allowProvisioningUpdates'

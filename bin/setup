@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# Set up brew for the app
+brew bundle

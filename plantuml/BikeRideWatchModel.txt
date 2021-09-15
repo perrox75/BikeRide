@@ -1,0 +1,103 @@
+@startuml
+' STYLE START
+hide empty members
+skinparam shadowing false
+' STYLE END
+!pragma layout smetana
+
+
+class "BikeRideWatchApp" as BikeRideWatchApp << (S, SkyBlue) struct >> { 
+  -modelData
+  ~workoutManager
+  ~body : some Scene 
+}
+class "ViewModelWatch" as ViewModelWatch << (C, DarkSeaGreen) >> { 
+  ~session : WCSession
+  ~init(session:)
+  ~session(_:activationDidCompleteWith:error:) 
+}
+class "ModelDataWatch" as ModelDataWatch << (C, DarkSeaGreen) >> { 
+  -localFileProvider
+  -connectivityProvider
+  -monitor
+  ~isPhoneReachable : Bool
+  ~localFiles : [LocalFile]
+  ~isInternetReachable : Bool
+  ~init()
+  ~deleteLocalFiles(at:) 
+}
+class "ModelDataWatch" as ModelDataWatch0 << (X, Orchid) extension >> { 
+  counterpartAppReachableDidChange(_:)
+  stateDidChange(_:)
+  gpxWasReceived(_:) 
+}
+class "ModelDataWatch" as ModelDataWatch1 << (X, Orchid) extension >> { 
+  -isNetworkPathUpdated(path:) 
+}
+class "LocalFileProvider" as LocalFileProvider << (S, SkyBlue) struct >> { 
+  -localDocumentsURL : URL?
+  ~listLocalFiles()
+  ~removeLocalFile(localFile:)
+  ~saveToLocalFile(gpx:)
+  ~loadFromLocalFile(localURL:) 
+}
+class "WorkoutManager" as WorkoutManager << (C, DarkSeaGreen) >> { 
+  ~selectedWorkout : HKWorkoutActivityType?
+  ~showingSummaryView : Bool
+  ~healthStore
+  ~session : HKWorkoutSession?
+  ~builder : HKLiveWorkoutBuilder?
+  ~locationManager : CLLocationManager?
+  ~routeBuilder : HKWorkoutRouteBuilder?
+  ~averageHeartRate : Double
+  ~heartRate : Double
+  ~activeEnery : Double
+  ~distance : Double
+  ~workout : HKWorkout?
+  ~running
+  ~pause()
+  ~resume()
+  ~togglePause()
+  ~endWorkout()
+  ~startWorkout(workoutType:)
+  ~requestAuthorization()
+  ~updateForStatistics(_:)
+  ~resetWorkout() 
+}
+class "WorkoutManager" as WorkoutManager2 << (X, Orchid) extension >> { 
+  workoutSession(_:didChangeTo:from:date:)
+  workoutSession(_:didFailWithError:) 
+}
+class "WorkoutManager" as WorkoutManager3 << (X, Orchid) extension >> { 
+  workoutBuilderDidCollectEvent(_:)
+  workoutBuilder(_:didCollectDataOf:) 
+}
+class "WorkoutManager" as WorkoutManager4 << (X, Orchid) extension >> { 
+  locationManager(_:didUpdateLocations:) 
+}
+class "LocalFile" as LocalFile << (S, SkyBlue) struct >> { 
+  ~id
+  ~localURL : URL
+  ~gpx : GPX?
+  ~init(localURL:) 
+}
+BikeRideWatchApp --|> App : inherits
+ViewModelWatch --|> NSObject : inherits
+ViewModelWatch --|> WCSessionDelegate : inherits
+ModelDataWatch --|> ClassName : inherits
+ModelDataWatch --|> ObservableObject : inherits
+ModelDataWatch --|> ConnectivityProviderDelegate : inherits
+LocalFileProvider --|> ClassName : inherits
+WorkoutManager --|> NSObject : inherits
+WorkoutManager --|> ObservableObject : inherits
+WorkoutManager --|> HKWorkoutSessionDelegate : inherits
+WorkoutManager --|> HKLiveWorkoutBuilderDelegate : inherits
+WorkoutManager --|> CLLocationManagerDelegate : inherits
+LocalFile --|> Identifiable : inherits
+LocalFile --|> ClassName : inherits
+ModelDataWatch <.. ModelDataWatch0 : ext
+ModelDataWatch <.. ModelDataWatch1 : ext
+WorkoutManager <.. WorkoutManager2 : ext
+WorkoutManager <.. WorkoutManager3 : ext
+WorkoutManager <.. WorkoutManager4 : ext
+@enduml
