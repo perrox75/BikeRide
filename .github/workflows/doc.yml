@@ -52,38 +52,30 @@ jobs:
       - name: Install jazzy
         run: |
           gem install jazzy
-      #- 
-      #  name: Generate documentation (Jazzy)
-      #  run: jazzy --clean --config .jazzy.yaml
-      #  working-directory: ./BikeRide
-      - name: Publish jazzy docs
-        uses: steven0351/publish-jazzy-docs@v1
-        with:
-          personal_access_token: ${{ secrets.DOCREPO_ACCESS }}
-          config: .jazzy.yaml
-          args: clean
-          working-directory: ./BikeRide
+      - name: Generate documentation (Jazzy)
+        run: jazzy --clean --config .jazzy.yaml
+        working-directory: ./BikeRide
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
           name: APIDocs
           path: ./BikeRide/bikeride_docs
-      #- name: Push to gh-pages
-      #  run: |
-      #    git config --global user.email "${GITHUB_ACTOR}"
-      #    git config --global user.name "${GITHUB_ACTOR}@users.noreply.github.com"
-      #    git clone "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" out
-      #    cd out
-      #    git checkout gh-pages
-      #    git rm -rf .
-      #    cd ..
-      #    cp -a docs/. out/.
-      #    cd out
-      #    git add -A
-      #    git commit -m "Automated deployment to GitHub Pages: ${GITHUB_SHA}" --allow-empty
-      #    git push origin gh-pages
-      #  env:
-      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push to gh-pages on in doc repo
+        run: |
+          git config --global user.email "${GITHUB_ACTOR}"
+          git config --global user.name "${GITHUB_ACTOR}@users.noreply.github.com"
+          git clone "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" out
+          cd out
+          git checkout gh-pages
+          git rm -rf .
+          cd ..
+          cp -a bikeride_docs/. out/.
+          cd out
+          git add -A
+          git commit -m "Automated deployment to GitHub Pages: ${GITHUB_SHA}" --allow-empty
+          git push origin gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.DOCREPO_ACCESS }}
       - name: Clean up keychain and provisioning profile
         if: ${{ always() }}
         run: |
