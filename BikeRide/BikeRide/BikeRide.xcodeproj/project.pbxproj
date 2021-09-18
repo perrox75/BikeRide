@@ -231,6 +231,7 @@
 		FC6F79CE26E641DF00B37A0A /* route_simulation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = route_simulation.gpx; sourceTree = "<group>"; };
 		FC7C1EF426E35ED70040CEC1 /* location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = location.gpx; sourceTree = "<group>"; };
 		FC7C1EFA26E375B20040CEC1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC83592426F65E0400A29CE3 /* BikeRide WatchKit Extension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "BikeRide WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		FC90F96126EDE5A600B7EF92 /* TestsCloudFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsCloudFile.swift; sourceTree = "<group>"; };
 		FC930A8526D5358300551888 /* GPX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
 		FC99991926C66D12007B4CC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -555,6 +556,7 @@
 		FC4B774826B1756B007C6A0D /* BikeRide WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				FC83592426F65E0400A29CE3 /* BikeRide WatchKit Extension.entitlements */,
 				FC4B774926B1756B007C6A0D /* BikeRideWatchApp.swift */,
 				FC36764826C1132F0014A2D2 /* Controller */,
 				FC36764626C112F30014A2D2 /* Model */,
