@@ -23,7 +23,4 @@ class TestsCloudFile: XCTestCase {
 
         try super.tearDownWithError()
     }
-
-    
-
 }

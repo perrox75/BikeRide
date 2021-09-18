@@ -557,12 +557,12 @@
 			isa = PBXGroup;
 			children = (
 				FC83592426F65E0400A29CE3 /* BikeRide WatchKit Extension.entitlements */,
+				FC4B775826B1756C007C6A0D /* Info.plist */,
 				FC4B774926B1756B007C6A0D /* BikeRideWatchApp.swift */,
 				FC36764826C1132F0014A2D2 /* Controller */,
 				FC36764626C112F30014A2D2 /* Model */,
 				FC36764726C112FA0014A2D2 /* View */,
 				FC4B775326B1756C007C6A0D /* Assets.xcassets */,
-				FC4B775826B1756C007C6A0D /* Info.plist */,
 				FC4B775926B1756C007C6A0D /* PushNotificationPayload.apns */,
 				FC4B775526B1756C007C6A0D /* Preview Content */,
 			);

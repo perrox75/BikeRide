@@ -45,6 +45,18 @@ class CloudFileProvider: ClassName {
                 return false
             }
         }
+
+        // Create dummy file
+        let fileName = "dummy.txt"
+        let filePath = url.appendingPathComponent(fileName)
+        let fileContents = "dummy"
+        do {
+            try fileContents.write(to: filePath, atomically: false, encoding: String.Encoding.utf8)
+        } catch {
+            Logger.model.error("Error while checking cloud containers: \(error.localizedDescription, privacy: .public)")
+            return false
+        }
+
         return true
     }
 
